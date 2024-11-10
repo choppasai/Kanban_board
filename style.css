@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.toolbox-cont{
+    display: flex;
+    background-color: bisque;
+    height: 50px;
+    align-items: center;
+    
+}
+.toolbox-priority-cont{
+    display: flex;
+    background-color: rgb(233, 214, 197);
+    width: 170px;
+    height: 30px;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+.color{
+    height: 15px;
+    width: 30px;
+    background-color: pink;
+}
+.pink{
+    background-color: pink;
+}
+.blue{
+    background-color: lightblue;
+}
+.orange{
+    background-color: lightcoral;
+}
+.green{
+    background-color: lightgreen;
+}
+.action-btn-cont{
+    display: flex;
+    background-color: rgb(233, 214, 197);
+    width: 50px;
+    height: 30px;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 45px;
+}
+.add-btn:hover{
+    background-color: white;
+}
+.remove-btn:hover{
+    background-color: white;
+}
+.color:hover{
+    background-color: white;
+}
